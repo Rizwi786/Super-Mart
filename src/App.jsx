@@ -345,17 +345,7 @@ function Login({ onLogin }) {
           <div style={{fontSize:22,fontWeight:700,color:"#fff"}}>Super Mart</div>
           <div style={{fontSize:13,color:"#7a7f8a",marginTop:4}}>Management System</div>
         </div>
-
-        <div style={{background:"#1a2810",border:"1px solid #3B6D11",borderRadius:10,padding:"12px 14px",marginBottom:20,fontSize:12}}>
-          <div style={{color:"#97C459",fontWeight:600,marginBottom:4,display:"flex",alignItems:"center",gap:6}}>
-            <ShieldCheck size={13} color="#97C459"/> Firebase Authentication
-          </div>
-          <div style={{color:"#8a8f9a",lineHeight:1.7}}>
-            Sign in with the email &amp; password you added in<br/>
-            <span style={{color:"#85B7EB"}}>Firebase Console → Authentication → Users → Add user</span>
-          </div>
-        </div>
-
+        
         <div style={{display:"flex",flexDirection:"column",gap:14}}>
           <div>
             <label style={{fontSize:11,color:"#7a7f8a",display:"block",marginBottom:5}}>Email Address</label>
